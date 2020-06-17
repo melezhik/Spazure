@@ -49,13 +49,14 @@ User personal access token (PAT)
 
 * `api`
 
+Azure DevOps API URL
+
 # Environment variables
 
 * `SPARROW_ADO_DEBUG`
 
 Set to 1 if you need debug response from API
 
-Azure DevOps API URL
 
 # See also
 
