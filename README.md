@@ -15,7 +15,17 @@ Automation toolset for Azure DevOps written on Sparrow
 
     s6 --plg-run ado-git-branch-create@project=Backends,repo=Catalog,branch=feature
     
+Or if you prefer Raku API:
 
+```raku
+
+task-run "create branch", "ado-git-branch-create", %(
+    project => "Backends",
+    repo => "Catalog",
+    branch => "feature"
+);
+
+```
 # See also
 
 Ado related Sparrow plugins - http://repo.westus.cloudapp.azure.com/hub/search?q=ado
