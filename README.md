@@ -26,6 +26,31 @@ task-run "create branch", "ado-git-branch-create", %(
 );
 
 ```
+
+# Authentication
+
+Create file named `~/.sparrow-azure-devops.sh`
+
+```
+token=$PAT
+api=https://dev.azure.com/$organization
+user=$api_user
+```
+
+Where:
+
+* `user`
+
+User to sign requests
+
+* `token`
+
+User personal access token (PAT)
+
+* `api`
+
+Azure DevOps API URL
+
 # See also
 
 Ado related Sparrow plugins - http://repo.westus.cloudapp.azure.com/hub/search?q=ado
