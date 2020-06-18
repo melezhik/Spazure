@@ -13,7 +13,7 @@ Automation toolset for Azure DevOps written on Sparrow
 
     s6 --install ado-git-branch-create
 
-    s6 --plg-run ado-git-branch-create@project=Backends,repo=Catalog,branch=feature
+    s6 --plg-run ado-git-branch-create@project=Backends,repo=Catalog,branch_from=dev,branch=feature
     
 Or if you prefer Raku API:
 
