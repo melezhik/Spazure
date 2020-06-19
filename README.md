@@ -9,6 +9,8 @@ Automation toolset for Azure DevOps written on Sparrow
     
     export SP6_REPO=http://repo.westus.cloudapp.azure.com
     
+    s6 --index-update
+    
     s6 --search ado
 
     s6 --install ado-git-branch-create
